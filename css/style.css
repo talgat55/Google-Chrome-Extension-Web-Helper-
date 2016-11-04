@@ -1,0 +1,21 @@
+/*
+* 
+*/
+
+body {
+    width: 260px;
+}
+
+.container {
+    width: 248px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.list-commands li {
+    list-style: none
+}
+
+.list-commands {
+    padding-left: 25px;
+}
