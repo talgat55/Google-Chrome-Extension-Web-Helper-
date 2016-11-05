@@ -3,19 +3,48 @@
 */
 
 body {
-    width: 260px;
+    width: 420px;
+    margin: 0;
 }
 
 .container {
-    width: 248px;
+    width: 408px;
     overflow: hidden;
     margin: 0 auto;
 }
+/*
+* Main blocks
+*/
+.accordion.main-block{
+	margin: 0;
+	padding: 0;
 
+}
+.accordion.main-block h2{
+
+	text-align: center;
+}
+.accordion.main-block h2:hover{
+
+	cursor: pointer;
+}
+.accordion.main-block li,
 .list-commands li {
     list-style: none
 }
 
 .list-commands {
     padding-left: 25px;
+}
+.header-table-view{
+
+	display: table;
+
+}
+.left-header,
+.right-header{
+	
+	display: table-cell;
+    text-align: center;
+
 }

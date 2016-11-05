@@ -10,83 +10,98 @@
     <script src="js/jquery.min.js"></script>
 
 </head>
+<header>
+    <div class="container  header-table-view">
+        <div class="left-header">
+            
+            <i class="fa fa-bars" aria-hidden="true"></i>
 
+        </div>
+        <div class="right-header">
+            <h2> Web Helper</h2>
+        </div>
+        
+    </div>
+</header>
 <body>
     <div class="container">
         <div class="full-width">
-            <div class="wrap-block">
-                <h2>Команды Ubuntu</h2>
-                <ul class="list-commands">
-                    <li>
-                        <button data-clipboard-text="tail file"><i class="fa fa-clipboard btn" aria-hidden="true"></i></button>
-                        <i class="fa fa-clipboard btn" data-clipboard-text="tail file" aria-hidden="true"></i>
-                        <pre>tail file</pre>
-                        <p>вывести последние 10 строк file</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-clipboard" data-clipboard-text="tar czf file.tar.gz files" aria-hidden="true"></i>
-                        <pre>tar czf file.tar.gz files</pre>
-                        <p>создать архив tar с сжатием Gzip</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-clipboard" data-clipboard-text="tar czf file.tar.gz files" aria-hidden="true"></i>
-                        <pre>tar czf file.tar.gz files</pre>
-                        <p>создать архив tar с сжатием Gzip</p>
-                    </li>
+            <ul class="accordion main-block">
+                <li class="wrap-block">
 
-                </ul>
-            </div>
-            <div class="wrap-block">
-                <h2>Команды Mysql консоль:</h2>
-                <ul class="list-commands">
-                    <li>
-                        <i class="fa fa-clipboard" data-clipboard-text="mysql -u username -p" aria-hidden="true"></i>
-                        <pre>mysql -u username -p</pre>
-                        <p>подключиться к серверу MySQL из консоли, если сервер MySQL находится на том же хосте</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-clipboard" data-clipboard-text="mysql -u username -p -h db1.example.com" aria-hidden="true"></i>
-                        <pre>mysql -u username -p -h db1.example.com</pre>
-                        <p>Что бы подключиться к серверу MySQL из консоли, если сервер MySQL находится на удаленном хосте db1.example.com</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-clipboard" data-clipboard-text="CREATE DATABASE [databasename];" aria-hidden="true"></i>
-                        <pre>CREATE DATABASE [databasename];</pre>
-                        <p>Создать базу данных на MySQL сервере</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-clipboard" data-clipboard-text="SHOW DATABASES;" aria-hidden="true"></i>
-                        <pre>SHOW DATABASES;</pre>
-                        <p>Показать список всех баз данных на сервере MySQL</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-clipboard" data-clipboard-text="USE [db name];" aria-hidden="true"></i>
-                        <pre>USE [db name];</pre>
-                        <p>Переключиться для работы с определенной базой данных</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-clipboard" data-clipboard-text="SHOW TABLES;" aria-hidden="true"></i>
-                        <pre>SHOW TABLES;</pre>
-                        <p>Отобразить все таблицы в базе данных</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-clipboard" data-clipboard-text="DROP DATABASE [database name];" aria-hidden="true"></i>
-                        <pre>DROP DATABASE [database name];</pre>
-                        <p>Удалить базу</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-clipboard" data-clipboard-text="DROP TABLE [table name];" aria-hidden="true"></i>
-                        <pre>DROP TABLE [table name];</pre>
-                        <p>Удалить таблицу из базы</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-clipboard" data-clipboard-text="SHOW COLUMNS FROM [table name];" aria-hidden="true"></i>
-                        <pre>SHOW COLUMNS FROM [table name];</pre>
-                        <p>Отобразить столбцы и содержимое столбцов в выбранной таблице</p>
-                    </li>
+                    <h2>Команды Ubuntu</h2>
+                    <ul class="list-commands">
+                        <li>
+                            <button data-clipboard-text="tail file"><i class="fa fa-clipboard btn" aria-hidden="true"></i></button>
+                            <i class="fa fa-clipboard btn" data-clipboard-text="tail file" aria-hidden="true"></i>
+                            <pre>tail file</pre>
+                            <p>вывести последние 10 строк file</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-clipboard" data-clipboard-text="tar czf file.tar.gz files" aria-hidden="true"></i>
+                            <pre>tar czf file.tar.gz files</pre>
+                            <p>создать архив tar с сжатием Gzip</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-clipboard" data-clipboard-text="tar czf file.tar.gz files" aria-hidden="true"></i>
+                            <pre>tar czf file.tar.gz files</pre>
+                            <p>создать архив tar с сжатием Gzip</p>
+                        </li>
 
-                </ul>
-            </div>
+                    </ul>
+                </li>
+                <li class="wrap-block">
+                    <h2>Команды Mysql консоль:</h2>
+                    <ul class="list-commands">
+                        <li>
+                            <i class="fa fa-clipboard" data-clipboard-text="mysql -u username -p" aria-hidden="true"></i>
+                            <pre>mysql -u username -p</pre>
+                            <p>подключиться к серверу MySQL из консоли, если сервер MySQL находится на том же хосте</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-clipboard" data-clipboard-text="mysql -u username -p -h db1.example.com" aria-hidden="true"></i>
+                            <pre>mysql -u username -p -h db1.example.com</pre>
+                            <p>Что бы подключиться к серверу MySQL из консоли, если сервер MySQL находится на удаленном хосте db1.example.com</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-clipboard" data-clipboard-text="CREATE DATABASE [databasename];" aria-hidden="true"></i>
+                            <pre>CREATE DATABASE [databasename];</pre>
+                            <p>Создать базу данных на MySQL сервере</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-clipboard" data-clipboard-text="SHOW DATABASES;" aria-hidden="true"></i>
+                            <pre>SHOW DATABASES;</pre>
+                            <p>Показать список всех баз данных на сервере MySQL</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-clipboard" data-clipboard-text="USE [db name];" aria-hidden="true"></i>
+                            <pre>USE [db name];</pre>
+                            <p>Переключиться для работы с определенной базой данных</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-clipboard" data-clipboard-text="SHOW TABLES;" aria-hidden="true"></i>
+                            <pre>SHOW TABLES;</pre>
+                            <p>Отобразить все таблицы в базе данных</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-clipboard" data-clipboard-text="DROP DATABASE [database name];" aria-hidden="true"></i>
+                            <pre>DROP DATABASE [database name];</pre>
+                            <p>Удалить базу</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-clipboard" data-clipboard-text="DROP TABLE [table name];" aria-hidden="true"></i>
+                            <pre>DROP TABLE [table name];</pre>
+                            <p>Удалить таблицу из базы</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-clipboard" data-clipboard-text="SHOW COLUMNS FROM [table name];" aria-hidden="true"></i>
+                            <pre>SHOW COLUMNS FROM [table name];</pre>
+                            <p>Отобразить столбцы и содержимое столбцов в выбранной таблице</p>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
 
 
         </div>
